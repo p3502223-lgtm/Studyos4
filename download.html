@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <h2>Download Study OS 4</h2>
+  <p>Click the link below to download your application code.</p>
+  <a id="downloadLink" download="StudyOS4.tar.gz" href="#">Download StudyOS4.tar.gz</a>
+
+  <script>
+    // Embed the base64 payload
+    fetch('StudyOS4_base64.txt')
+      .then(r => r.text())
+      .then(b64 => {
+         const link = document.getElementById('downloadLink');
+         link.href = 'data:application/gzip;base64,' + b64.replace(/\s/g, '');
+      });
+  </script>
+</body>
+</html>

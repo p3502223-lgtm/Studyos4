@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_tab" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Plus+Jakarta+Sans:wght@600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "tertiary-fixed": "#ffddb8", "error": "#ffb4ab", "outline": "#908fa0", "surface-bright": "#373940", "on-surface-variant": "#c7c4d7", "surface-container-highest": "#33343b", "on-tertiary-container": "#3e2400", "on-error": "#690005", "outline-variant": "#464554", "inverse-surface": "#e2e2eb", "on-secondary-fixed": "#002113", "on-error-container": "#ffdad6", "primary-container": "#8083ff", "surface-container-high": "#282a30", "on-primary-fixed": "#07006c", "on-secondary-fixed-variant": "#005236", "surface-container-low": "#191b22", "surface": "#111319", "surface-tint": "#c0c1ff", "inverse-on-surface": "#2e3037", "secondary-container": "#00a572", "tertiary-fixed-dim": "#ffb95f", "surface-container": "#1e1f26", "on-primary-container": "#0d0096", "secondary": "#4edea3", "surface-variant": "#33343b", "tertiary": "#ffb95f", "primary": "#c0c1ff", "secondary-fixed": "#6ffbbe", "primary-fixed": "#e1e0ff", "background": "#111319", "on-secondary-container": "#00311f", "on-primary-fixed-variant": "#2f2ebe", "inverse-primary": "#494bd6", "on-tertiary-fixed": "#2a1700", "on-tertiary": "#472a00", "tertiary-container": "#ca8100", "on-tertiary-fixed-variant": "#653e00", "secondary-fixed-dim": "#4edea3", "error-container": "#93000a", "on-surface": "#e2e2eb", "on-background": "#e2e2eb", "surface-dim": "#111319", "on-secondary": "#003824", "primary-fixed-dim": "#c0c1ff", "surface-container-lowest": "#0c0e14", "on-primary": "#1000a9" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "margin": "1rem", "space-md": "1rem", "space-lg": "1.5rem", "margin-lg": "3rem", "margin-md": "2rem", "space-xl": "2rem", "gutter": "1rem", "space-xs": "0.25rem", "space-2xl": "3rem", "space-xxs": "0.125rem", "space-sm": "0.5rem", "gutter-md": "1.5rem", "gutter-lg": "2rem" }, "fontFamily": { "label-md": ["Inter"], "display-hero-mobile": ["Plus Jakarta Sans"], "title-md": ["Inter"], "body-sm": ["Inter"], "headline-lg-mobile": ["Plus Jakarta Sans"], "body-md": ["Inter"], "headline-md": ["Plus Jakarta Sans"], "headline-sm": ["Plus Jakarta Sans"], "display-hero": ["Plus Jakarta Sans"], "code-stat": ["Inter"], "label-sm": ["Inter"], "headline-lg": ["Plus Jakarta Sans"], "body-lg": ["Inter"] }, "fontSize": { "label-md": ["13px", { "lineHeight": "16px", "letterSpacing": "0.01em", "fontWeight": "500" }], "display-hero-mobile": ["32px", { "lineHeight": "40px", "letterSpacing": "-0.02em", "fontWeight": "700" }], "title-md": ["16px", { "lineHeight": "22px", "letterSpacing": "-0.01em", "fontWeight": "600" }], "body-sm": ["12px", { "lineHeight": "16px", "letterSpacing": "0em", "fontWeight": "400" }], "headline-lg-mobile": ["24px", { "lineHeight": "32px", "letterSpacing": "-0.015em", "fontWeight": "600" }], "body-md": ["14px", { "lineHeight": "20px", "letterSpacing": "0em", "fontWeight": "400" }], "headline-md": ["22px", { "lineHeight": "28px", "letterSpacing": "-0.015em", "fontWeight": "600" }], "headline-sm": ["18px", { "lineHeight": "24px", "letterSpacing": "-0.01em", "fontWeight": "600" }], "display-hero": ["48px", { "lineHeight": "56px", "letterSpacing": "-0.025em", "fontWeight": "700" }], "code-stat": ["14px", { "lineHeight": "18px", "letterSpacing": "-0.02em", "fontWeight": "500" }], "label-sm": ["11px", { "lineHeight": "14px", "letterSpacing": "0.03em", "fontWeight": "600" }], "headline-lg": ["32px", { "lineHeight": "40px", "letterSpacing": "-0.02em", "fontWeight": "600" }], "body-lg": ["16px", { "lineHeight": "24px", "letterSpacing": "-0.005em", "fontWeight": "400" }] } } } };</script><style>@layer base { html, body { width: 100vw; margin: 0; padding: 0; } body { overscroll-behavior: none; } .pb-safe { padding-bottom: env(safe-area-inset-bottom, 0px); } .pt-safe { padding-top: env(safe-area-inset-top, 0px); } main > :first-child { margin-top: 0 !important; } main > :last-child { margin-bottom: 0 !important; } } ::-webkit-scrollbar { display: none; }</style><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  <script src="js/storage.js"></script><script src="js/app.js"></script><script src="js/flashcards.js"></script></head><body class="bg-surface text-on-surface font-body-md text-body-md flex flex-col min-h-screen"><header class="fixed top-0 w-full z-50 bg-surface/80 backdrop-blur-xl pt-safe shadow-[0_1px_8px_rgba(0,0,0,0.25)]"><div class="h-16 px-space-md flex items-center justify-between gap-space-sm"><div class="flex items-center gap-space-sm min-w-0"><img alt="StudyOS Logo" class="h-8 w-auto object-contain flex-shrink-0" src="https://lh3.googleusercontent.com/aida/AEtjO1VowgCUewOIPUlbpmesfJZJOQZQ9qUOei0AJxUeTN4GFrXX-5y-Zl_fhVN_0YGH2-Jkv4TVOhxJjjWZrygtsPU7LD4N2y2trkUN-HheRRo1TtgA1z7iIzNif8EP1vPuNUs7Ai8XGRNVxaNpH5qxxcnn7BE9-IuRyTuVQa0HPzhUz83Nk4Jp0Jnhmo45S0IEHbpqSHFeQr0_xr0LWBmDkrTKk1JhMas3mMMIVw9m-s4Fuw"/><div class="flex flex-col min-w-0"><span class="font-title-md text-title-md text-on-surface tracking-tight truncate">StudyOS</span><span class="font-label-sm text-label-sm text-on-surface-variant truncate">Subjects</span></div></div><div class="flex items-center gap-space-sm flex-shrink-0"><div class="flex items-center gap-space-xxs px-space-sm py-space-xxs rounded-full bg-surface-container-high shadow-inner"><span class="text-tertiary font-label-sm text-label-sm">🔥</span><span class="font-code-stat text-code-stat text-tertiary-fixed font-medium">14d</span></div><img alt="Profile" class="w-8 h-8 rounded-full object-cover ring-1 ring-outline/20" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBtw2P-3YXXGMa4fi_-vs7oKgRbEYeUCn_0GHtLWyfOVgZXcml-beRBlrEEYGg-US31DsiAsg4JLCXNQKUao7Zg6LLBnOXzsKTNSzrui7du_QJvFcIiOFD4Bi8zjH_-1rsDCi4w9X8bZRd4ZSsYAKG-fcFDqf7bONtu_hXyZtcmqReWl_xy1oV0rjC3BV59Y3lCKXiFfjKKcxHUDtAvxJABIXP3kH8mxQBtutZvr774"/></div></div></header><main class="flex flex-col relative w-full pt-16 pb-28 bg-surface px-space-md"><div class="flex flex-col w-full gap-space-md">
+<!-- Session Top Navigation / Metadata Badge -->
+<div class="flex items-center justify-between gap-space-sm pt-space-xs">
+<div class="flex items-center gap-space-xs min-w-0">
+<span class="inline-flex items-center justify-center w-2 h-2 rounded-full bg-tertiary animate-pulse"></span>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider truncate">Weak Topic Drill • Session 1 of 3</span>
+</div>
+<div class="flex items-center gap-space-xxs px-space-sm py-0.5 rounded-full bg-surface-container-high">
+<span class="material-symbols-outlined text-[13px] text-tertiary">autorenew</span>
+<span class="font-label-sm text-label-sm text-tertiary font-medium">SM-2 Decay L1</span>
+</div>
+</div>
+<!-- Active Subject & Target Concept Card -->
+<div class="flex flex-col gap-space-xs p-space-md rounded-xl bg-surface-container shadow-sm">
+<div class="flex items-start justify-between gap-space-sm">
+<div class="flex flex-col min-w-0">
+<div class="flex items-center gap-space-xs flex-wrap">
+<span class="font-label-sm text-label-sm text-primary uppercase font-semibold">Physics</span>
+<span class="text-on-surface-variant font-label-sm text-label-sm">•</span>
+<span class="font-label-sm text-label-sm px-space-xs py-0.5 rounded-full bg-error/15 text-error font-medium">58% Accuracy • Needs Review</span>
+</div>
+<h1 class="font-headline-sm text-headline-sm text-on-surface mt-space-xxs truncate">Rotational Dynamics: Inertia of Annular Disc</h1>
+</div>
+<button aria-label="Toggle White Noise" class="p-space-xs rounded-lg bg-surface-container-highest text-on-surface-variant hover:text-primary transition-colors flex-shrink-0" id="audioToggleBtn" type="button">
+<span class="material-symbols-outlined text-[18px]">graphic_eq</span>
+</button>
+</div>
+<!-- Progress Track & Pace Metronome -->
+<div class="flex flex-col gap-space-xxs mt-space-xs">
+<div class="flex items-center justify-between font-code-stat text-code-stat">
+<span class="text-on-surface font-medium">Card 4 <span class="text-on-surface-variant font-normal">of 12</span></span>
+<span class="text-on-surface-variant flex items-center gap-space-xxs text-body-sm font-body-sm">
+<span class="material-symbols-outlined text-[14px] text-secondary">timer</span>
+<span>04:35</span>
+<span class="text-outline">/ 15:00 Target</span>
+</span>
+</div>
+<div class="w-full h-1.5 rounded-full bg-surface-container-highest overflow-hidden">
+<div class="h-full rounded-full bg-primary-container transition-all duration-300" style="width: 33.3%;"></div>
+</div>
+</div>
+</div>
+<!-- Primary Interactive Concept / Flashcard Container -->
+<div class="flex flex-col rounded-xl bg-surface-container p-space-lg shadow-md relative overflow-hidden transition-all">
+<!-- Ambient subtle halo -->
+<div class="absolute -top-12 -right-12 w-32 h-32 rounded-full bg-primary/10 blur-2xl pointer-events-none"></div>
+<!-- Card Sub-header Tags -->
+<div class="flex items-center justify-between gap-space-xs mb-space-sm flex-wrap">
+<span class="inline-flex items-center gap-1 font-label-sm text-label-sm px-space-sm py-0.5 rounded-full bg-surface-container-highest text-primary">
+<span class="material-symbols-outlined text-[12px]">psychology</span>
+        Rigorous Derivation • JEE High Frequency
+      </span>
+<span class="font-code-stat text-code-stat text-on-surface-variant">QID #PH-1108</span>
+</div>
+<!-- Scientific Problem Statement -->
+<div class="flex flex-col gap-space-xs my-space-xs">
+<p class="font-body-lg text-body-lg text-on-surface font-medium leading-relaxed">
+        A uniform circular disc of mass <span class="font-headline-sm text-headline-sm text-primary font-bold">M</span> and outer radius <span class="font-headline-sm text-headline-sm text-primary font-bold">R</span> has a concentric hole of radius <span class="font-headline-sm text-headline-sm text-primary font-bold">r</span>. What is its moment of inertia about the perpendicular central symmetry axis?
+      </p>
+</div>
+<!-- Diagnostic Multiple Choice Options -->
+<div class="flex flex-col gap-space-xs my-space-md" id="mcqOptionsGroup">
+<button class="option-btn text-left p-space-sm rounded-lg bg-surface-container-high hover:bg-surface-container-highest flex items-center justify-between gap-space-sm transition-all" data-correct="false" data-opt="A" type="button">
+<div class="flex items-center gap-space-sm min-w-0">
+<span class="w-6 h-6 rounded flex items-center justify-center font-code-stat text-code-stat bg-surface-container-lowest text-on-surface-variant flex-shrink-0">A</span>
+<span class="font-body-md text-body-md text-on-surface truncate">I = ½ M (R² - r²)</span>
+</div>
+<span class="feedback-icon material-symbols-outlined text-[18px] hidden text-error">cancel</span>
+</button>
+<button class="option-btn selected text-left p-space-sm rounded-lg bg-primary-container text-on-primary-container flex items-center justify-between gap-space-sm transition-all shadow-sm" data-correct="true" data-opt="B" type="button">
+<div class="flex items-center gap-space-sm min-w-0">
+<span class="w-6 h-6 rounded flex items-center justify-center font-code-stat text-code-stat bg-on-primary-container text-primary-fixed flex-shrink-0 font-semibold">B</span>
+<span class="font-body-md text-body-md font-semibold truncate">I = ½ M (R² + r²)</span>
+</div>
+<span class="feedback-icon material-symbols-outlined text-[18px] text-on-primary-container">check_circle</span>
+</button>
+<button class="option-btn text-left p-space-sm rounded-lg bg-surface-container-high hover:bg-surface-container-highest flex items-center justify-between gap-space-sm transition-all" data-correct="false" data-opt="C" type="button">
+<div class="flex items-center gap-space-sm min-w-0">
+<span class="w-6 h-6 rounded flex items-center justify-center font-code-stat text-code-stat bg-surface-container-lowest text-on-surface-variant flex-shrink-0">C</span>
+<span class="font-body-md text-body-md text-on-surface truncate">I = ¼ M (R² + r²)</span>
+</div>
+<span class="feedback-icon material-symbols-outlined text-[18px] hidden text-error">cancel</span>
+</button>
+<button class="option-btn text-left p-space-sm rounded-lg bg-surface-container-high hover:bg-surface-container-highest flex items-center justify-between gap-space-sm transition-all" data-opt="D" type="button">
+<div class="flex items-center gap-space-sm min-w-0">
+<span class="w-6 h-6 rounded flex items-center justify-center font-code-stat text-code-stat bg-surface-container-lowest text-on-surface-variant flex-shrink-0">D</span>
+<span class="font-body-md text-body-md text-on-surface truncate">I = ½ M (R² + 2r²)</span>
+</div>
+<span class="feedback-icon material-symbols-outlined text-[18px] hidden text-error">cancel</span>
+</button>
+</div>
+<!-- Stepwise Analytical Proof / Breakdown (Visible State) -->
+<div class="flex flex-col gap-space-sm p-space-md rounded-lg bg-surface-container-lowest my-space-xs" id="solutionBreakdown">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-secondary uppercase font-semibold flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">auto_awesome</span> Verified Solution
+        </span>
+<span class="font-code-stat text-code-stat text-on-surface-variant">Density σ = M / [π(R² - r²)]</span>
+</div>
+<div class="p-space-xs rounded bg-surface-container-high text-center">
+<span class="font-headline-sm text-headline-sm text-primary tracking-wide">I = ½ M (R² + r²)</span>
+</div>
+<ul class="flex flex-col gap-space-xxs text-body-sm font-body-sm text-on-surface-variant">
+<li class="flex items-start gap-space-xs">
+<span class="material-symbols-outlined text-[15px] text-primary flex-shrink-0 mt-0.5">check</span>
+<span>Inertia is calculated by subtracting smaller imaginary disk inertia: <code class="text-on-surface font-code-stat text-code-stat">I = I_total - I_removed</code>.</span>
+</li>
+<li class="flex items-start gap-space-xs">
+<span class="material-symbols-outlined text-[15px] text-primary flex-shrink-0 mt-0.5">check</span>
+<span>Mass expands as <code class="text-on-surface font-code-stat text-code-stat">½ σ π (R⁴ - r⁴) = ½ σ π (R² - r²)(R² + r²)</code>.</span>
+</li>
+<li class="flex items-start gap-space-xs">
+<span class="material-symbols-outlined text-[15px] text-secondary flex-shrink-0 mt-0.5">lightbulb</span>
+<span>Factorisation results in an intuitive <strong class="text-secondary font-medium">positive addition</strong> because <code class="text-on-surface font-code-stat text-code-stat">M = σ π (R² - r²)</code>.</span>
+</li>
+</ul>
+</div>
+<!-- Active Recall SM-2 Self-Rating Buttons -->
+<div class="flex flex-col gap-space-xs mt-space-md pt-space-sm">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Rate Recall Confidence:</span>
+<span class="font-code-stat text-code-stat text-outline text-xs">SM-2 Spaced Factor</span>
+</div>
+<div class="grid grid-cols-4 gap-space-xs" id="srsRatingGroup">
+<button class="srs-btn flex flex-col items-center justify-center py-space-sm px-space-xxs rounded-lg bg-surface-container-high hover:bg-error-container text-on-surface hover:text-on-error-container transition-all" type="button">
+<span class="font-title-md text-title-md font-semibold text-error">Again</span>
+<span class="font-code-stat text-code-stat text-on-surface-variant text-[11px] mt-0.5">&lt; 1 min</span>
+</button>
+<button class="srs-btn flex flex-col items-center justify-center py-space-sm px-space-xxs rounded-lg bg-surface-container-high hover:bg-tertiary-container text-on-surface hover:text-on-tertiary-container transition-all" type="button">
+<span class="font-title-md text-title-md font-semibold text-tertiary">Hard</span>
+<span class="font-code-stat text-code-stat text-on-surface-variant text-[11px] mt-0.5">12 hrs</span>
+</button>
+<button class="srs-btn flex flex-col items-center justify-center py-space-sm px-space-xxs rounded-lg bg-surface-container-high hover:bg-primary text-on-surface hover:text-on-primary transition-all" type="button">
+<span class="font-title-md text-title-md font-semibold text-primary">Good</span>
+<span class="font-code-stat text-code-stat text-on-surface-variant text-[11px] mt-0.5">3 days</span>
+</button>
+<button class="srs-btn flex flex-col items-center justify-center py-space-sm px-space-xxs rounded-lg bg-surface-container-high hover:bg-secondary-container text-on-surface hover:text-on-secondary-container transition-all" type="button">
+<span class="font-title-md text-title-md font-semibold text-secondary">Easy</span>
+<span class="font-code-stat text-code-stat text-on-surface-variant text-[11px] mt-0.5">7 days</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Key Cognitive Trap Alert -->
+<div class="flex items-start gap-space-sm p-space-md rounded-xl bg-surface-container-low shadow-sm">
+<div class="p-space-xs rounded-lg bg-error-container text-on-error-container flex-shrink-0">
+<span class="material-symbols-outlined text-[20px]">warning</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-title-md text-title-md text-on-surface">Cognitive Trap Warning</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-space-xxs">
+<strong class="text-error font-medium">42% of test-takers</strong> erroneously choose <code class="text-on-surface font-code-stat text-code-stat">½ M (R² - r²)</code>, overlooking that <strong class="text-on-surface">M</strong> denotes remaining annulus mass, rather than the initial full solid disc.
+      </p>
+</div>
+</div>
+<!-- Formula Memory Vault Quick Drawer -->
+<div class="flex flex-col rounded-xl bg-surface-container p-space-md shadow-sm">
+<div class="flex items-center justify-between gap-space-sm">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-[20px] text-secondary">menu_book</span>
+<span class="font-title-md text-title-md text-on-surface">Formula Memory Vault</span>
+</div>
+<div class="flex items-center gap-space-xs">
+<button class="flex items-center gap-1 font-label-sm text-label-sm px-space-sm py-1 rounded-full bg-surface-container-high text-primary hover:bg-primary-container hover:text-on-primary-container transition-colors" id="bookmarkBtn" type="button">
+<span class="material-symbols-outlined text-[14px]">bookmark_add</span>
+<span>Bookmarked</span>
+</button>
+</div>
+</div>
+<div class="grid grid-cols-2 gap-space-xs mt-space-sm">
+<div class="p-space-sm rounded-lg bg-surface-container-lowest flex flex-col justify-between">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Solid Disc Axis</span>
+<span class="font-code-stat text-code-stat text-primary font-semibold mt-1">I = ½ M R²</span>
+</div>
+<div class="p-space-sm rounded-lg bg-surface-container-lowest flex flex-col justify-between">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Thin Annular Ring</span>
+<span class="font-code-stat text-code-stat text-secondary font-semibold mt-1">I = M R²</span>
+</div>
+</div>
+</div>
+<!-- Active Session Queue Hierarchy -->
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between px-space-xs">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase font-semibold">Drill Curriculum Queue</span>
+<span class="font-code-stat text-code-stat text-on-surface-variant">3 Modules • 23 Cards Total</span>
+</div>
+<!-- Topic Row 1: Active -->
+<div class="flex items-center justify-between p-space-md rounded-xl bg-surface-container-high shadow-sm">
+<div class="flex items-center gap-space-sm min-w-0">
+<div class="w-8 h-8 rounded-lg bg-primary-container text-on-primary-container flex items-center justify-center font-code-stat text-code-stat font-semibold flex-shrink-0">
+          01
+        </div>
+<div class="flex flex-col min-w-0">
+<div class="flex items-center gap-space-xs">
+<span class="font-title-md text-title-md text-on-surface truncate">Rotational Dynamics</span>
+<span class="inline-flex w-1.5 h-1.5 rounded-full bg-secondary"></span>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant truncate">Physics • 4 of 12 complete</span>
+</div>
+</div>
+<span class="font-label-sm text-label-sm px-space-sm py-0.5 rounded-full bg-primary/15 text-primary flex-shrink-0">Active</span>
+</div>
+<!-- Topic Row 2: Next In Line -->
+<div class="flex items-center justify-between p-space-md rounded-xl bg-surface-container shadow-sm">
+<div class="flex items-center gap-space-sm min-w-0">
+<div class="w-8 h-8 rounded-lg bg-surface-container-highest text-on-surface-variant flex items-center justify-center font-code-stat text-code-stat font-semibold flex-shrink-0">
+          02
+        </div>
+<div class="flex flex-col min-w-0">
+<span class="font-title-md text-title-md text-on-surface truncate">Ionic Equilibrium &amp; Buffers</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant truncate">Chemistry • 6 diagnostic cards</span>
+</div>
+</div>
+<span class="font-code-stat text-code-stat text-on-surface-variant flex-shrink-0">Up Next</span>
+</div>
+<!-- Topic Row 3: Queued -->
+<div class="flex items-center justify-between p-space-md rounded-xl bg-surface-container shadow-sm">
+<div class="flex items-center gap-space-sm min-w-0">
+<div class="w-8 h-8 rounded-lg bg-surface-container-highest text-on-surface-variant flex items-center justify-center font-code-stat text-code-stat font-semibold flex-shrink-0">
+          03
+        </div>
+<div class="flex flex-col min-w-0">
+<span class="font-title-md text-title-md text-on-surface truncate">Complex Numbers &amp; De Moivre</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant truncate">Mathematics • 5 diagnostic cards</span>
+</div>
+</div>
+<span class="font-code-stat text-code-stat text-on-surface-variant flex-shrink-0">Queued</span>
+</div>
+</div>
+<!-- Bottom Command Bar / Utility Dock -->
+<div class="flex items-center justify-between gap-space-sm pt-space-xs pb-space-sm">
+<button class="flex-1 flex items-center justify-center gap-space-xs py-space-sm px-space-sm rounded-lg bg-surface-container hover:bg-surface-container-high text-on-surface transition-colors" id="flagErrorBtn" type="button">
+<span class="material-symbols-outlined text-[18px] text-error">flag</span>
+<span class="font-label-md text-label-md">Error Notebook</span>
+</button>
+<button class="flex-1 flex items-center justify-center gap-space-xs py-space-sm px-space-sm rounded-lg bg-surface-container hover:bg-surface-container-high text-on-surface transition-colors" id="hintBtn" type="button">
+<span class="material-symbols-outlined text-[18px] text-tertiary">lightbulb</span>
+<span class="font-label-md text-label-md">Hint (-10s)</span>
+</button>
+<button class="flex-1 flex items-center justify-center gap-space-xs py-space-sm px-space-sm rounded-lg bg-primary hover:bg-primary-fixed text-on-primary transition-colors shadow-sm" id="nextCardBtn" type="button">
+<span class="font-label-md text-label-md font-semibold">Next Card</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</button>
+</div>
+</div>
+</main>
+<nav class="fixed bottom-0 w-full z-50 pb-safe bg-surface/85 backdrop-blur-xl shadow-[0_-1px_12px_rgba(0,0,0,0.35)]" data-active-classes="text-primary font-title-md">
+<div class="flex items-center justify-around h-16 px-space-xs">
+<a class="flex flex-col items-center justify-center min-w-[56px] min-h-[44px] gap-space-xxs text-on-surface-variant hover:text-on-surface transition-colors" data-path="home" href="javascript:void(0)"><span class="material-symbols-outlined text-[22px]">home</span><span class="font-label-sm text-label-sm">Home</span></a>
+<a class="flex flex-col items-center justify-center min-w-[56px] min-h-[44px] gap-space-xxs text-on-surface-variant hover:text-on-surface transition-colors" data-path="study-plan" href="javascript:void(0)"><span class="material-symbols-outlined text-[22px]">calendar_today</span><span class="font-label-sm text-label-sm">Plan</span></a>
+<a class="flex flex-col items-center justify-center min-w-[56px] min-h-[44px] gap-space-xxs text-on-surface-variant hover:text-on-surface transition-colors" data-path="subjects" href="javascript:void(0)"><span class="material-symbols-outlined text-[22px]">menu_book</span><span class="font-label-sm text-label-sm">Subjects</span></a>
+<a class="flex flex-col items-center justify-center min-w-[56px] min-h-[44px] gap-space-xxs text-on-surface-variant hover:text-on-surface transition-colors" data-path="focus-timer" href="javascript:void(0)"><span class="material-symbols-outlined text-[22px]">timer</span><span class="font-label-sm text-label-sm">Focus</span></a>
+<a class="flex flex-col items-center justify-center min-w-[56px] min-h-[44px] gap-space-xxs text-on-surface-variant hover:text-on-surface transition-colors" data-path="student-profile" href="javascript:void(0)"><span class="material-symbols-outlined text-[22px]">person</span><span class="font-label-sm text-label-sm">Profile</span></a>
+</div>
+</nav>
+</body>
+</html>

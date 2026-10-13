@@ -1,0 +1,8 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "origin"]
+	url = https://p3502223-lgtm@github.com/p3502223-lgtm/Studyos4.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
